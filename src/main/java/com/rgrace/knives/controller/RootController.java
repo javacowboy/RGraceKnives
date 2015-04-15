@@ -12,6 +12,6 @@ public class RootController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
-		return "Hello World";
+		return "Hello World Controller";
 	}
 }
