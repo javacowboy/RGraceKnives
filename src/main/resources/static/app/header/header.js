@@ -1,15 +1,13 @@
 ;(function(){
 	'use strict';
-	angular.module('rg.navigation', ['ui.router'])
+	angular.module('rg.header', ['ui.router'])
 	/**
 	 * HTML: <rg-navigation></rg-navigation>
 	 */
 	.directive('rgNavigation', [function() {
 		return {
 			restrict: 'EA',
-			templateUrl: '/app/navigation/navigation.html',
-//			controller: 'rgNavigationController',
-//			controllerAs: 'rgNavigationCtrl'
+			templateUrl: '/app/header/header.html',
 		};
 	}])
 	.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
