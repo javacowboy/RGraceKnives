@@ -2,9 +2,9 @@
 	'use strict';
 	angular.module('rg.header', ['ui.router'])
 	/**
-	 * HTML: <rg-navigation></rg-navigation>
+	 * HTML: <rg-header></rg-header>
 	 */
-	.directive('rgNavigation', [function() {
+	.directive('rgHeader', [function() {
 		return {
 			restrict: 'EA',
 			templateUrl: '/app/header/header.html',

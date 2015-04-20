@@ -9,13 +9,15 @@
     <meta name="description" content="RGrace Custom Knives">
     <meta name="author" content="javacowboy@gmail.com">
     <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/content/logos/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/content/logos/favicon-16x16.png" sizes="16x16" />
 
     <title>RGrace Custom Knives</title>
 
     <link href="/libs/bootstrap-css-only/css/bootstrap.min.css" rel="stylesheet">
     <link href="/libs/bootstrap-css-only/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/app/css/theme.css" rel="stylesheet">
-    <link href="/app/css/footer.css" rel="stylesheet">
+    <link href="/app/css/layout.css" rel="stylesheet">
     <script src="/libs/jquery/dist/jquery.min.js"></script>
    <!--  <script src="/libs/angular/angular.min.js"></script>
     <script src="/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -38,8 +40,8 @@
   </head>
 
   <body role="document" ng-app="rgraceApp">
-	<rg-navigation></rg-navigation>
-    <div class="container theme-showcase" role="main" ui-view></div>
+	<rg-header></rg-header>
+    <div class="container-fluid body-content theme-showcase" role="main" ui-view></div>
     <rg-footer></rg-footer>
   </body>
 </html>
