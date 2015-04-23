@@ -2,7 +2,7 @@
 	<div style="height: 305px">
 	    <carousel interval="transitionInterval">
 			<slide ng-repeat="slide in slides" active="slide.active">
-				<img ng-src="{{slide.image}}" style="margin:auto;">
+				<img ng-src="{{slide.image}}" style="margin:auto; max-height: 300px;">
 				<div class="carousel-caption">
 					<h4>{{slide.title}}</h4>
 					<p>{{slide.text}}</p>

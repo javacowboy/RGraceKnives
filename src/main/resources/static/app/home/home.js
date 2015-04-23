@@ -5,17 +5,17 @@
 		$scope.transitionInterval = 5000;
 		$scope.slides = [
 		     {
-		    	 image: '/content/photos/knife01.jpg',
+		    	 image: '/content/photos/knife1.jpg',
 		    	 title: 'G-2 Drop Point',
 		    	 text: 'Shown with micarta.'
 		     },
 		     {
-		    	 image: '/content/photos/knife02.jpg',
+		    	 image: '/content/photos/knife2.jpg',
 		    	 title: 'G-5 Skinner',
 		    	 text: 'Shown with bone handle and brass bolster.'
 		     },
 		     {
-		    	 image: '/content/photos/knife03.jpg',
+		    	 image: '/content/photos/knife3.jpg',
 		    	 title: 'G-10',
 		    	 text: 'Our most popular all-around knife.'
 		     },
