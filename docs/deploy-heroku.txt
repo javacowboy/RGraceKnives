@@ -7,6 +7,12 @@ heroku create
 #generates a project such as: https://desolate-cove-2350.herokuapp.com/
 git push heroku master
 #git repo: https://git.heroku.com/desolate-cove-2350.git
+#make sure a server is running
+heroku ps:scale web=1
+
+Git:
+git push will check in code to github javacowboy location.
+git push heroku master will push the master branch to Heroku.
 
 Other: 
 Procfile in project root is for Heroku.
