@@ -16,3 +16,6 @@ git push heroku master will push the master branch to Heroku.
 
 Other: 
 Procfile in project root is for Heroku.
+$PORT is an env environment variable assigned to us by Heroku.
+A system.properties file can also be included next to the Procfile to include variables such as:
+java.runtime.version=1.7
