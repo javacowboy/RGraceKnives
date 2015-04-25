@@ -1,0 +1,12 @@
+Setup a Heroku account.
+Install the Heroku toolbelt. (Mac: brew install heroku)
+Command line:
+cd {workspace}/RGraceKnives/
+heroku login
+heroku create
+#generates a project such as: https://desolate-cove-2350.herokuapp.com/
+git push heroku master
+#git repo: https://git.heroku.com/desolate-cove-2350.git
+
+Other: 
+Procfile in project root is for Heroku.
